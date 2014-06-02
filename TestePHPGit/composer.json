@@ -1,0 +1,23 @@
+{
+    "name": "andre/lista-telefonica",
+    "description": "Projeto do curso Pandora de ZF2, que faz uma lista telefonica",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "zf2",
+	"pandora",
+	"andre"
+    ],
+    "homepage": "http://facebook.com/zeroxm",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "pandora/pg-base":"dev-trunk"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://limao.lan.completo.com.br:88/packages/"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "pandora/pg-base",
+    "description": "Base para trabalhar com Postgres e Doctrine",
+    "type": "library",   
+    "keywords": [
+        "framework",
+        "zf2",
+        "pandora",
+        "pgbase",
+        "postgres"
+    ],
+    "homepage": "http://www.pandora.com.br/",
+    "authors": [
+        {
+            "name": "Fabio Ginzel",
+            "email": "fabio.ginzel@pandora.com.br",
+            "homepage": "http://www.pandora.com.br/"
+        }
+    ],    
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": ">=2.1.5",
+		"doctrine/doctrine-orm-module": "0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "PgBase": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }    
+}
